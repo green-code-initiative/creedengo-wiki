@@ -559,3 +559,67 @@ Après le 14 avril nous repasserons sur un rythme d’1 réunion tous les 15 jou
 **Prochains événements :**
 
 :mega: Prochain rdv des contributeurs (ouvert à tous) : vendredi 7 juillet à 14h sur Eco Code | Treebal Meet
+
+---
+
+[Compte rendu point ecoCode du 15.09.2023]
+
+**Sujets abordés :**
+
+* :spider_web: Site web :
+  * Finalisation v1 : prévu fin septembre
+  * Idées :
+    * aggregateur de contenu (type blog)
+      * description : avoir un endroit sur le nouveau site web où on référence une liste exhaustive (en tout cas à notre connaissance) des communications où ecoCode est cité : typiquement, ce qu’on se partage dans le channel #communication (ex : chaine youtube, vidéos, conférences, articles, interviews, ...).
+      * Sera développé après la v1
+    * pipeline de build + déploiement sur environnement snapp automatique (pris en charge par @Julien HERTOUT)
+* Plugin kotlin : test en cours
+  * portage de règles java vers kotlin
+  * V1 prévu pour fin octobre
+* Présentation générique : v0.4 validée, en attente ajout slide nouveau référentiel de BP
+* Participation à une Greenterview GoMind (ex : https://www.linkedin.com/events/greenterview-performance-sobri-7070013391238504449/comments/)
+  * :date: Date : 20 octobre 2023 12h / 14h
+* Roadmap :
+  * rajout de sujet : travailler sur l’outillage de mesure au sens globale => regarder ce qui se fait, ETSDiff à tester, retour d’XP suite au dev de nouvelles règles de Snapp pour la Société Générale, ...
+* ecoCode Challenge - PR spotters :
+  * @Geoffrey Lalloué : proposition de workflow de validation pour traiter ces PR
+* discussions / décisions à prendre sur plusieurs ISSUES par la core-team
+  * cf les issues avec le tag “todiscuss_coreteam” :
+    * ecocode : lien repo ecocode (10 issues)
+    * ecocode-python : lien repo python (1 issue)
+    * ecocode-php : lien repo PHP (2 issues)
+  * @David DE CARVALHO : organisation des discussions sur le sujet
+
+**Prochains événements :**
+* :mega: Prochain rdv des contributeurs (ouvert à tous) : vendredi 29 septembre à 14h sur Eco Code | Treebal Meet
+* :date: Interview greeterview ecocode : 20 octobre 2023 12h / 14h
+
+---
+
+[Compte rendu point ecoCode du 29.09.2023]
+
+**Sujets abordés :**
+
+* Plugin kotlin : test en cours
+  * template permettant le portage de règles java vers kotlin (plugin Kotlin de Sonar étendu)
+  * il faut faire en sorte de dissocier le plugin ecoCode et le plugin Sonar
+  * V1 prévu pour fin octobre
+* Publication sur la marketplace de Sonar
+  * Android Java : en cours, le renommage des règles est fastidieux
+  * On devrait pouvoir soumettre la semaine prochaine (@Julien HERTOUT voit avec @JY pour la procédure)
+  * Objectif : BDX IO
+* discussions / décisions à prendre sur plusieurs ISSUES par la core-team
+  * @David DE CARVALHO : organisation des discussions sur le sujet -> point Treebal le vendredi 6/10 de 14h à 15h
+* ID de rules
+  * comment calcule-t-on le prochain ID d’une rule ?
+  * je ne pense pas que ce soit clairement écrit quelque part, non ?
+  * comment convertit-on un ID “CRxxx” en vrai rule ID ? (ex : CRJVM205) notamment qu’on est ok avec la PR, on demande à modifier l’ID du coup ?
+  * ajouter tout cela à la check-list d’une PR ? (https://github.com/green-code-initiative/ecoCode-common/blob/main/doc/starter-pack.md#definition-of-done-of-a-pr)
+  * -> On attend l'automatisation et on en reparle à ce moment là
+
+**Prochains événements :**
+
+* :mega: Prochain rdv des contributeurs (ouvert à tous) : vendredi 13 octobre à 14h sur Eco Code | Treebal Meet
+* :date: Mardi 03 octobre 2023 à 13h30 : Meetup Microsoft (@Olivier Le Goaër)
+* :date: Mercredi 04 octobre 2023 à 19h : Live Twitch Codeurs en Seine x ecoCode + Scaphandre (@Justin)
+* :date: Vendredi 27 octobre 2023 à 12h : GreenTerview GoMind x ecoCode (@Maxime DUBOIS)
