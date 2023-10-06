@@ -623,3 +623,21 @@ Après le 14 avril nous repasserons sur un rythme d’1 réunion tous les 15 jou
 * :date: Mardi 03 octobre 2023 à 13h30 : Meetup Microsoft (@Olivier Le Goaër)
 * :date: Mercredi 04 octobre 2023 à 19h : Live Twitch Codeurs en Seine x ecoCode + Scaphandre (@Justin)
 * :date: Vendredi 27 octobre 2023 à 12h : GreenTerview GoMind x ecoCode (@Maxime DUBOIS)
+
+---
+
+[Compte rendu point "Spécial" ecoCode du 06.10.2023]
+
+Point décision sur les ISSUES/PRs
+
+**Sujets abordés :**
+
+* ecocode - issue 173 (règle try-catch) : règle supprimée sur tous les langages car l’implémentation est beaucoup trop “large” / “laxiste” et ne concerne qu’un besoin trop précis sur l’ouverture de fichier
+* ecocode - issue 145 (Java : idée de règles sur pagination des données) : fermeture de l’issue au profit de la création d’une nouvelle règle à étudier dans le kanban + utilisation du template
+* ecocode - issue 132 (python : utilisation lib “numpy” au lieu de liste standard) : sujet étudié par SNAPP pour la société générale - recheck de @Julien HERTOUT auprès de la SocGen pour contribuer sur ce sujet
+* ecocode - issue 103 (html : règle sur le doctype) : attente d’avis de @Maxime Malgorn
+* ecocode - issue 100 (python : rule sur la concaténation de chaines) : idem que numpy => recheck de @Julien HERTOUT auprès de la SocGen
+* ecocode - issue 60  (java : pb rule i++ / ++i) : fermeture de l’issue car démonstration que argumentaire de la demande pas bon => bien mettre de côté les petite étude de ce genre
+* ecocode - PR 128 (java - try-catch) : comme issue 173 ci-dessus => fermer la PR, supprimer la règle et en recréer une avec le cas précis du FileNotFoundException (cf le cas de tests)
+* ecocode-python - issue 4 (python - gestion des chaines avec ' ou ” ) : démonstration d’un gars à checker par @Julien HERTOUT avec un expert Python de SocGen
+* ecocode-php - issue 8 (php - rule du try-catch) : idem 173
