@@ -1,12 +1,4 @@
-**Publication au nom d'ecoCode ou Green Code Initiative**
-
-compte Linkedin ecoCode : 
-* url : https://www.linkedin.com/showcase/ecocode-io/
-* droits d'accès :
-    * Maxime DUBOIS
-    * Geoffrey LALLOUE
-    * Jade DELAUNAY (Snapp')
-    * Jean-Benoit CHARRETON (Snapp')
+**Publication au nom de CreedenGo ou Green Code Initiative**
 
 compte Linkedin green-code-initiative : 
 * url : https://www.linkedin.com/company/green-code-initiative/
@@ -15,6 +7,7 @@ compte Linkedin green-code-initiative :
     * Geoffrey LALLOUE
     * Jules DELECOUR
     * Olivier Le Goaer
+    * David DE CARVALHO
 
 Procédure :
 * Partage du contenu à publier sur le channel #communication du slack du collectif
